@@ -9,7 +9,7 @@ function SongTable(){
             url:'https://theaudiodb.p.rapidapi.com/searchalbum.php',
             params:{s:'daft_punk'},
             headers:{
-                'X-RapidAPI-Key':'0ec122f2bfmshd2c087346201dbbp1cfb6ajsn7c1a94d5d67b',
+                'X-RapidAPI-Key':'',
                 'X-RapidAPI-Host':'theaudiodb.p.rapidapi.com'
             }
         };

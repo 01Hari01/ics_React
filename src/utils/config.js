@@ -7,8 +7,6 @@ export const menuItems = [
     { text: "Suppliers", icon: <InfoIcon />, link: "/suppliers" },
     { text: "Products", icon: <ShoppingBasket />, link: "/products" },
     { text: "Add Products", icon: <ShoppingBasket />, link: "/addproducts" },
-    { text: "Interview", icon: <ShoppingBasket />, link: "/interview" },
     { text: "Audio", icon: <ShoppingBasket />, link: "/songs" },
-    { text: "Smart Building", icon: <ShoppingBasket />, link: "/command" },
 
 ];
