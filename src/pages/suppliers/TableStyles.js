@@ -1,6 +1,5 @@
-import {styled} from "@mui/material/styles";
-import {Button, Table, TableCell} from "@mui/material";
-
+import {styled} from "@mui/material";
+import {Button, Table, TableCell, TextField} from "@mui/material";
 export const StyledTableCell = styled(TableCell)`
     && {
         font-weight: bold;
@@ -8,6 +7,15 @@ export const StyledTableCell = styled(TableCell)`
         border-bottom: 1px solid #ddd;
     }
 `;
+
+
+
+export const StyledTextField=styled(TextField)`
+margin-right:${({theme})=>theme.spacing(2)} `;
+
+
+
+
 
 const APPBAR_MOBILE = 64;
 const APPBAR_DESKTOP = 92;

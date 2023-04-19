@@ -14,10 +14,8 @@ import {
     Typography,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import HomeIcon from "@mui/icons-material/Home";
-import InfoIcon from "@mui/icons-material/Info";
-import { ShoppingBasket } from "@mui/icons-material";
 import {logout} from "../../utils/api";
+import {menuItems} from "../../utils/config";
 
 function CustomAppBar() {
     const [open, setOpen] = useState(false);
@@ -48,12 +46,7 @@ function CustomAppBar() {
         setOpen(false);
     };
 
-    const menuItems = [
-        {text: "Home", icon: <HomeIcon/>, link: "/"},
-        {text: "Suppliers", icon: <InfoIcon/>, link: "/suppliers"},
-        {text: "Add Products", icon: <ShoppingBasket/>, link: "/addproducts"},
-        {text: "Products", icon: <InfoIcon/>, link: "/products"},
-    ];
+
 
     return (
         <Box sx={{flexGrow: 1}}>

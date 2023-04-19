@@ -9,6 +9,9 @@ const LandingPage = lazy(() => import("../pages/LandingPage"));
 const SuppliersPage = lazy(() => import("../pages/suppliers/SuppliersPage"));
 const ProductsPage = lazy(() => import("../pages/Products/AddProducts/ProductsMainPage"));
 const ProductsDisplay = lazy(() => import("../pages/Products/ProductsDisplay/ProductsDisplayPage"));
+const InterviewPage=    lazy(() => import("../pages/neuroXR/myApproach"))
+const SongPage=    lazy(() => import("../pages/Songs/SongsPage"))
+const CommandPage=    lazy(() => import("../pages/UrbanData/CommandMainPage"))
 
 
 
@@ -21,6 +24,9 @@ function Routers() {
                         <Route path="/suppliers" element={<SuppliersPage/>} />
                         <Route path="/addproducts" element={<ProductsPage />} />
                         <Route path="/products" element={<ProductsDisplay />} />
+                        <Route path="/interview" element={<InterviewPage/>}/>
+                        <Route path="/songs" element={<SongPage/>}/>
+                        <Route path="/command" element={<CommandPage/>}/>
                         <Route path="/logout" element={<Logout />} />
                     </Route>
                     <Route path="/" element={<LandingPage/>}/>

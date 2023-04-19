@@ -134,7 +134,6 @@ const ProductForm = ({
                         inputProps={{ step: '0.01' }}
                         value={product.price}
                         onChange={handleChange}
-
                         required
                     />
                     <FormControlLabel
